@@ -1,0 +1,32 @@
+//configure git account
+git config --global user.name "BadPistol97"
+
+git config --global user.email 1151104900@student.mmu.edu.my
+
+//clone repository from webpage
+git clone <url path>
+
+//add file to git
+git add <filename>
+
+//check git status
+git status
+
+//commit file
+git commit -m "commited message" <filename>
+
+//upload file
+git push -u origin master
+
+//go to other branch
+git checkout <branch>
+
+//gets you up to date with origin ;  "gimme everything you have that I 
+don't"
+git fetch origin
+
+//pull from github
+git merge origin/master
+
+//to see what they have that I don't
+git log origin
