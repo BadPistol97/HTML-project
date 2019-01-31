@@ -30,3 +30,11 @@ git merge origin/master
 
 //to see what they have that I don't
 git log origin
+
+
+//to create a new repository on the command line
+git init
+git add webScraping.py
+git commit -m "first commit"
+git remote add origin https://github.com/BadPistol97/webScraping.git
+git push -u origin master
