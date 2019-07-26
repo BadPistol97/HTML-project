@@ -43,3 +43,8 @@ git push -u origin master
 //to push a new local branch to a remote Git repository and track it too
 git checkout -b <branch_name>
 git push -u origin <branch_name>
+
+//to make change to file from remote
+git add <filename>
+git commit
+git push
