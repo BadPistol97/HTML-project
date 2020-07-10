@@ -48,3 +48,25 @@ git push -u origin <branch_name>
 git add <filename>
 git commit
 git push
+
+// Branching 
+
+- git branch <newBranch>
+
+- git checkout <newBranch>
+
+- git add <newItem>
+
+- git commit -m "commit"
+
+- git push --set-upstream origin <newBranch>
+
+- git merge --no-ff <newBranch> # merge in master branch 
+
+- git merge origin master # merge in new branch but only existing files
+
+- git push origin master # update the merge to the hub
+
+- git push --delete origin newVersion # update deleted branch to hub
+
+- git branch -d <newBranch> # delete local branch
